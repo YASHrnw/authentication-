@@ -21,7 +21,7 @@ function UserLogin() {
 
       // Navigate to Dashboard with Data
         navigate("/dashboard", { state: actualData });
-        localStorage.setItem("userData", JSON.stringify(actualData)); // Add this line
+        localStorage.setItem("userData", JSON.stringify(actualData)); 
     } else {
       setError({
         status: true,
